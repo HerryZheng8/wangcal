@@ -1,11 +1,8 @@
 <template>
-  <div class="nav-wrapper">
-    <div class="content">
-      统计
-      <p>1</p>
-    </div>
-    <Nav/>
-  </div>
+<layout>
+  <p>统计</p>
+  <div>统计数据放置</div>
+</layout>
 </template>
 
 <script lang="ts">
@@ -15,16 +12,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.nav-wrapper {
-  border: 1px solid green;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.content {
-  border: 1px solid blue;
-  overflow: auto;
-  flex-grow: 1;
-}
 </style>
